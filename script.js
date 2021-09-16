@@ -17,7 +17,7 @@ function test () {
         document.getElementById("result2").innerHTML = "";
     } else {
         document.getElementById("result2").innerHTML = "FAIL";
-        document.getElementById("result1").innerHTML = ""
+        document.getElementById("result1").innerHTML = "";
     }
  
 }
