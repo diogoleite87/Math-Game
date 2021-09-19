@@ -22,11 +22,17 @@
         <label id="num2"></label>
         <label> = ?</label>
     </div>
-    <input type="number" id="num">
-    <br><br>
-    <button type="submit" onclick="test()"> OK </button>
-    <h4 id="result1"></h4>
-    <h4 id="result2"></h4>
+
+    <div class="input-text">
+        <input type="number" id="num">
+    </div>
+    <div>
+        <button type="submit" onclick="enter()"> OK </button>
+    </div>
+    
+    <h2 id="result"> <img src="img/correct.png"></h2>
+    <h2 id="result-text">Test your ability!</h2>
+
     <script src="script.js"></script>
     <button type="reset" onClick="window.location.reload();"> REPLACE </button>
 </body>

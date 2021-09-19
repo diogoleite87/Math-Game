@@ -1,13 +1,21 @@
 body {
-    background-image: linear-gradient(90deg, rgb(26, 211, 19), rgb(202, 223, 14));
+    background-image: linear-gradient(90deg, rgb(41 79 195), rgb(204 89 131));
     text-align: center;
     font-family: sans-serif;
 }
 
-#result1 {
-    color: green;
+.input-text {
+    margin-top: 1%;
 }
 
-#result2 {
-    color: red;
+#result {
+    opacity: 0;
+}
+
+#result img {
+    width: 6%;
+}
+
+button {
+    margin-top: 1%;
 }

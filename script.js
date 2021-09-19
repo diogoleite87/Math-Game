@@ -7,18 +7,21 @@ document.getElementById("num2").innerHTML = num2;
 
 
 
-function test () {
+function enter() {
 
     var num = parseInt(document.getElementById("num").value);
 
-
     if ((num1 + num2) == num) {
-        document.getElementById("result1").innerHTML = "RIGHT"
-        document.getElementById("result2").innerHTML = "";
+        document.getElementById("result").style.opacity = 1;
+        document.getElementById("result").innerHTML = "<img src='img/correct.png'>";
+        document.getElementById("result-text").innerHTML = "Correct";
+        document.getElementById("result-text").style.color = "#0eb10e";
     } else {
-        document.getElementById("result2").innerHTML = "FAIL";
-        document.getElementById("result1").innerHTML = "";
+        document.getElementById("result").innerHTML = "<img src='img/fail.png'>";
+        document.getElementById("result").style.opacity = 1;
+        document.getElementById("result-text").innerHTML = "Fail";
+        document.getElementById("result-text").style.color = "red";
     }
- 
+
 }
 
